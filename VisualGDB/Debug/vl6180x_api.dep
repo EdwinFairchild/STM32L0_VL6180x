@@ -1,0 +1,40 @@
+VisualGDB/Debug/vl6180x_api.o: F:/Drivers/VL6180x/core/src/vl6180x_api.c \
+ ../Drivers/VL6180x/core/inc/vl6180x_api.h \
+ ../Drivers/VL6180x/example/Nucleo/Projects/Multi/Examples/VL6180X/CodeSamples/inc/vl6180x_platform.h \
+ ../Drivers/VL6180x/core/inc/vl6180x_def.h \
+ ../Drivers/VL6180x/config/proximity/vl6180x_cfg.h \
+ ../Drivers/VL6180x/example/Nucleo/Projects/Multi/Examples/VL6180X/CodeSamples/inc/vl6180x_types.h \
+ c:\sysgcc\arm-eabi\lib\gcc\arm-none-eabi\9.3.1\include\stdint.h \
+ c:\sysgcc\arm-eabi\arm-none-eabi\include\stdint.h \
+ c:\sysgcc\arm-eabi\arm-none-eabi\include\machine\_default_types.h \
+ c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\features.h \
+ c:\sysgcc\arm-eabi\arm-none-eabi\include\_newlib_version.h \
+ c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\_intsup.h \
+ c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\_stdint.h \
+ c:\sysgcc\arm-eabi\lib\gcc\arm-none-eabi\9.3.1\include\stddef.h
+
+../Drivers/VL6180x/core/inc/vl6180x_api.h:
+
+../Drivers/VL6180x/example/Nucleo/Projects/Multi/Examples/VL6180X/CodeSamples/inc/vl6180x_platform.h:
+
+../Drivers/VL6180x/core/inc/vl6180x_def.h:
+
+../Drivers/VL6180x/config/proximity/vl6180x_cfg.h:
+
+../Drivers/VL6180x/example/Nucleo/Projects/Multi/Examples/VL6180X/CodeSamples/inc/vl6180x_types.h:
+
+c:\sysgcc\arm-eabi\lib\gcc\arm-none-eabi\9.3.1\include\stdint.h:
+
+c:\sysgcc\arm-eabi\arm-none-eabi\include\stdint.h:
+
+c:\sysgcc\arm-eabi\arm-none-eabi\include\machine\_default_types.h:
+
+c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\features.h:
+
+c:\sysgcc\arm-eabi\arm-none-eabi\include\_newlib_version.h:
+
+c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\_intsup.h:
+
+c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\_stdint.h:
+
+c:\sysgcc\arm-eabi\lib\gcc\arm-none-eabi\9.3.1\include\stddef.h:

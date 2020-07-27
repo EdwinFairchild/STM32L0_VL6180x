@@ -1,0 +1,5 @@
+﻿  STM32L0_VL6180.c
+  Linking VisualGDB/Debug/STM32L0_VL6180...
+  ------------------- Memory utilization report -------------------
+  Used FLASH: 12KB out of 32KB (38%) [-5032]
+  Used SRAM: 376 bytes out of 8192 bytes (4%) [-4]

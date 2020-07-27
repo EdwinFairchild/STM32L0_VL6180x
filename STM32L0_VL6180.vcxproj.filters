@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{adc40034-fb13-489c-971e-c5b17a52cf52}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{8927c373-e741-40f1-9eff-ba78b7020dbc}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{d4891727-f7a6-4ff6-9f39-879afec56d9f}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source files\Device-specific files">
+      <UniqueIdentifier>{ab1ca75c-3a87-42b4-8ad0-9f7037b150ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files\LL">
+      <UniqueIdentifier>{24a089eb-9fb6-4eaf-826d-8580d2ed8638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files">
+      <UniqueIdentifier>{cf650677-d0bb-4958-8559-df9726665114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files\LL">
+      <UniqueIdentifier>{913396d6-080d-4391-93aa-e7b7e7f07c6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{98f9b2d9-164b-47c8-a459-f29a026d6d23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\CL">
+      <UniqueIdentifier>{23b15699-c730-462c-898c-3cb6ad80247a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\CL">
+      <UniqueIdentifier>{e4741d73-9217-45c9-afdc-f2187b46321d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\VL6180x">
+      <UniqueIdentifier>{1cbbe057-46c4-43f9-83f5-52facaa5a511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\VL6180x">
+      <UniqueIdentifier>{36b24afc-47e6-46a8-b177-bf7922edecb8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="STM32L0_VL6180.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="system_stm32l0xx.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <None Include="stm32.props">
+      <Filter>Source files\Device-specific files</Filter>
+    </None>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\StartupFiles\startup_stm32l031xx.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_adc.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_comp.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_crc.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_crs.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_dac.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_dma.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_exti.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_gpio.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_i2c.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_lptim.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_lpuart.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_pwr.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_rcc.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_rng.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_rtc.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_spi.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_tim.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_usart.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_utils.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClInclude Include="stm32l0xx_hal_conf.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_adc.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_bus.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_comp.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_cortex.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_crc.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_crs.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_dac.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_dma.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_exti.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_gpio.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_i2c.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_iwdg.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_lptim.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_lpuart.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_pwr.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_rcc.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_rng.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_rtc.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_spi.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_system.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_tim.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_usart.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_utils.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_wwdg.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <None Include="STM32L0_VL6180-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="STM32L0_VL6180-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="stm32.xml">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <ClCompile Include="..\STM32_COMM_LIBS\CL_delay.c">
+      <Filter>Source files\CL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\STM32_COMM_LIBS\CL_printMsg.c">
+      <Filter>Source files\CL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\STM32_COMM_LIBS\CL_systemClockUpdate.c">
+      <Filter>Source files\CL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\VL6180x\platform\cci-i2c\vl6180x_i2c.c">
+      <Filter>Source files\VL6180x</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\VL6180x\core\src\vl6180x_api.c">
+      <Filter>Source files\VL6180x</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\STM32_COMM_LIBS\CL_CONFIG.h">
+      <Filter>Header files\CL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\STM32_COMM_LIBS\CL_delay.h">
+      <Filter>Header files\CL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\STM32_COMM_LIBS\CL_printMsg.h">
+      <Filter>Header files\CL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\STM32_COMM_LIBS\CL_systemClockUpdate.h">
+      <Filter>Header files\CL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\VL6180x\core\inc\vl6180x_api.h">
+      <Filter>Header files\VL6180x</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\VL6180x\core\inc\vl6180x_def.h">
+      <Filter>Header files\VL6180x</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\VL6180x\config\proximity\vl6180x_cfg.h">
+      <Filter>Header files\VL6180x</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\VL6180x\platform\cci-i2c\vl6180x_i2c.h">
+      <Filter>Header files\VL6180x</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\VL6180x\platform\template\vl6180x_platform.h">
+      <Filter>Header files\VL6180x</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\VL6180x\platform\template\vl6180x_types.h">
+      <Filter>Header files\VL6180x</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
